@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TermsAndConditions">
+
+    <listeners>
+        <listener class-name="com.mastercard.utils.Listeners"/>
+    </listeners>
+
+    <parameter name="apr" value="24"/>
+
+
+    <test name="APR_Validation">
+        <classes>
+            <class name="com.mastercard.tests.MasterCardTest"/>
+        </classes>
+    </test>
+</suite>
